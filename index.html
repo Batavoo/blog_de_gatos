@@ -14,20 +14,34 @@
     />
   </head>
   <body>
-    <header>
-      <img src="./assets/logo.svg" alt="" class="logo" />
-      <form action="">
-        <label for="search">Pesquise por artigos</label>
-        <input type="text" id="search" placeholder="Pesquise por artigos" />
-      </form>
-      <img
-        src="https://randomuser.me/api/portraits/women/12.jpg"
-        alt=""
-        class="avatar"
-      />
-    </header>
-    <main></main>
-    <div class="sidebar"></div>
-    <footer><p>© 2023 - Rocketseat Explorer</p></footer>
+    <div class="page">
+      <header>
+        <div class="container" id="header-wrapper">
+          <img src="./assets/logo.svg" alt="" class="logo" />
+          <form action="">
+            <div class="input-wrapper">
+              <label for="search">Pesquise por artigos</label>
+              <input
+                type="text"
+                id="search"
+                placeholder="Pesquise por artigos"
+              />
+            </div>
+          </form>
+          <img
+            src="https://randomuser.me/api/portraits/women/12.jpg"
+            alt=""
+            class="avatar"
+          />
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="main-content"></div>
+        <div class="sidebar"></div>
+      </main>
+
+      <footer class="container"><p>© 2023 - Rocketseat Explorer</p></footer>
+    </div>
   </body>
 </html>
