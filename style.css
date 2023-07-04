@@ -32,16 +32,15 @@ body {
 .page {
   display: grid;
   grid-template:
-    "A A A" max-content
-    "B B C" 1fr
-    "D D D" max-content;
-
+    "A" max-content
+    "B" 1fr
+    "C" max-content;
   height: 100vh;
 }
 
 .container {
   padding: 1.6rem 3.2rem;
-  width: min(112rem, 100%);
+  width: min(121.6rem, 100%);
   margin: 0 auto;
 }
 
@@ -88,8 +87,24 @@ header .avatar {
   border-radius: 50%;
 }
 
+/* main */
+
+main {
+  grid-area: B;
+  width: min(121.6rem, 100%);
+  margin: 0 auto;
+  overflow-y: scroll;
+}
+
+main img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  object-position: 0 10%;
+}
+
 footer {
-  grid-area: D;
+  grid-area: C;
   background-color: var(--color-primary-blue);
 }
 
