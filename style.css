@@ -175,16 +175,13 @@ h1 {
 }
 
 .text h2 {
-  font-size: 18px;
-  font-style: normal;
+  font-size: clamp(1.6rem, 1vw, 1.8rem);
   font-weight: 700;
   line-height: 160%;
 }
 
 .text p {
-  font-size: 1.4rem;
-  font-family: Mulish;
-  font-style: normal;
+  font-size: clamp(1.2rem, 2vw, 1.4rem);
   font-weight: 400;
   line-height: 160%;
 }
@@ -202,3 +199,15 @@ footer p {
   font-weight: 600;
   line-height: normal;
 }
+
+/*
+@media (max-width: 396px) {
+  .text h2 {
+    font-size: 1.6rem;
+  }
+
+  .text p {
+    font-size: 1.2rem;
+  }
+}
+*/
