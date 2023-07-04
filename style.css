@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --color-base-white: #ffffff;
+  --color-base-gray-300: #f4fcff;
+  --color-primary-blue: #387e96;
+  --color-primary-blue-300: #065e7c;
+  --color-text-p: #121214;
+  --color-text-h: #202024;
+}
+
+body {
+  font-size: 1.6rem;
+}
